@@ -1,0 +1,44 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .background { fill: #F5F7F8; }
+      .foreground { fill: #1E1E21; }
+      .accent { fill: #52E07C; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #1E1E21; }
+      .foreground { fill: #F5F7F8; }
+      .accent { fill: #52E07C; }
+    }
+  </style>
+  <g clip-path="url(#clip0)">
+    <rect class="background" width="180" height="180" rx="37" />
+    <!-- Vertical farming icon with circuit-like leaf design -->
+    <g transform="translate(90, 90)">
+      <!-- Main vertical stem -->
+      <path class="accent" d="M 0,-50 L 0,50" stroke-width="6" stroke-linecap="round" />
+      
+      <!-- Left vertical stems -->
+      <path class="accent" d="M -24,-30 L -24,30" stroke-width="4" stroke-linecap="round" />
+      <path class="accent" d="M -48,-10 L -48,10" stroke-width="3" stroke-linecap="round" />
+      
+      <!-- Right vertical stems -->
+      <path class="accent" d="M 24,-30 L 24,30" stroke-width="4" stroke-linecap="round" />
+      <path class="accent" d="M 48,-10 L 48,10" stroke-width="3" stroke-linecap="round" />
+      
+      <!-- Tech connection nodes -->
+      <circle class="accent" cx="0" cy="-25" r="3" />
+      <circle class="accent" cx="0" cy="0" r="3" />
+      <circle class="accent" cx="0" cy="25" r="3" />
+      <circle class="accent" cx="-24" cy="-15" r="2.5" />
+      <circle class="accent" cx="-24" cy="15" r="2.5" />
+      <circle class="accent" cx="24" cy="-15" r="2.5" />
+      <circle class="accent" cx="24" cy="15" r="2.5" />
+    </g>
+  </g>
+  <defs>
+    <clipPath id="clip0">
+      <rect width="180" height="180" fill="white" />
+    </clipPath>
+  </defs>
+</svg>
